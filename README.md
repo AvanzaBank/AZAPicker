@@ -89,10 +89,6 @@ Which width, in points, to use for the items.
 
 Velocity coefficient for the scroll views.
 
-## Author
-
-Viktor Rutberg, wishie@gmail.com
-
 ## License
 
-VRPicker is available under the MIT license. See the LICENSE file for more info.
+VRPicker is available under the Apache 2.0 license. See the LICENSE file for more info.
