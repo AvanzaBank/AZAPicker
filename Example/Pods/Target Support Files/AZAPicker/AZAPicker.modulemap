@@ -1,0 +1,6 @@
+framework module AZAPicker {
+  umbrella header "AZAPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

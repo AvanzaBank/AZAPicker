@@ -7,112 +7,110 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		355D2DAEAE72CC9FC00B785AACF5EE9F /* VRPickerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DEF6611FFFB60C94D612197CA94497 /* VRPickerConfiguration.swift */; };
-		437D9091E74F2FE5BB912ED7CE96BA08 /* Pods-VRPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EDC017A09B31EDD971EDDD037F8F763 /* Pods-VRPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CC83CD998E454E19592A9EC11E362D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
-		558693BA46439E0FE79838386AD88489 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1BFFA9C321D9D3BCED73014C4E533D /* PickerView.swift */; };
-		60A697595C6F2EDAD6BB41914165E867 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		6E4770974F4ACEDF8EB535D28C455F53 /* Pods-VRPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 117BC05E892481F94A9543D6A10C8DA2 /* Pods-VRPicker_Tests-dummy.m */; };
-		71800EFD17144A8DFE2A3138406C15AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		7B2A42BD9E7E36C11BA1F6730BB220A6 /* VRPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3585D900EA62D2A989A6FEDA8E91863D /* VRPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2DFAAFBCFE42626285A591D0FFE85AB /* VRPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8124E82AA07507BEFAB0771B311F4 /* VRPicker-dummy.m */; };
-		C3AA75812294063182C34B823622F306 /* Pods-VRPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8707B59FFA4DF8FA0E778B8B5E7D5F0A /* Pods-VRPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D29C05E3531B7FB2FD31CB8C369309DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		ED2DF21E07922A89C08144C8F9E13ECD /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A50C766E1A44DECA38A3A8DB4E66481 /* HelperFunctions.swift */; };
-		F449D5281623A4A3B420F4AD5641DCD9 /* Pods-VRPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0ECF2373CE9BE15E5486420C1BDC50 /* Pods-VRPicker_Example-dummy.m */; };
-		FA8FD579180BA1D802C18B7B48B66E83 /* VRPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47017BD6E9C3AA1D942AB9A199123BD /* VRPicker.swift */; };
+		02D64E5F8C31820613E5D3817D510D83 /* VRPickerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB5499E0A3A17B47D1FF4551BEB16E6 /* VRPickerConfiguration.swift */; };
+		0FDF3BE8B4A2A760359B8CD76BAFC957 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		16624689D68A4C577601ADC122D615A2 /* Pods-AZAPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51DB1AA9896AF356B3D9E8BFA95882F1 /* Pods-AZAPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16EE4D8E55CC43ABA73A69FD111BF922 /* AZAPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E04668A1F1019D8FA51B194004F904A /* AZAPicker-dummy.m */; };
+		1D82C2694364745653518806623D5C2C /* Pods-AZAPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 782A3F76CA7EEC58A1E37F80E963D25B /* Pods-AZAPicker_Example-dummy.m */; };
+		3E66BD7B443F070507A6A4D60A36AA2F /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D6D3AE6A636170DAD2CC5AA67FD6CD /* HelperFunctions.swift */; };
+		6BD7CE4EA40217AD3C7183F0D88DBC75 /* Pods-AZAPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C491E40A7A1A44B289C55D0BF54E83B6 /* Pods-AZAPicker_Tests-dummy.m */; };
+		73266385AD93E50F210E99C67BBF456C /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBB58DA57B888762A659EDD12A71774 /* PickerView.swift */; };
+		954A2239281C0D7EF5AC03CEB0534034 /* Pods-AZAPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 580F752F8DBF83870B0494B21D92CC9B /* Pods-AZAPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DB953F8F0D5B6E4AC31DFE654ECCA41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		D8E4BD828B9768865A655BBC99C8B5AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		D9B39A44368FEFB51AF29BD9B224ECDD /* AZAPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41537FE3DB4F97C6079D1CE551E9F580 /* AZAPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCADE2FB2B40079ED159B9CD0867D8CC /* VRPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4995D6B97CF865F116CBC33F52F5213C /* VRPicker.swift */; };
+		F2343D25469909ABCC9762F90C3A8B8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F31FEC478CE8ABF10C676E47876998BE /* PBXContainerItemProxy */ = {
+		92763ED670F3BAF4AA80E0D56829138F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4F427503B5A9887E3A849B5F9B1A4B58;
-			remoteInfo = VRPicker;
+			remoteGlobalIDString = 43F49041A4AD9E594204EBDBB480C0AE;
+			remoteInfo = AZAPicker;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07BF5D03A05B809347895E24A1EB5CC1 /* Pods-VRPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VRPicker_Tests.modulemap"; sourceTree = "<group>"; };
-		117BC05E892481F94A9543D6A10C8DA2 /* Pods-VRPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VRPicker_Tests-dummy.m"; sourceTree = "<group>"; };
-		137E22397199AD202270DC5E241CFAA9 /* VRPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = VRPicker.modulemap; sourceTree = "<group>"; };
-		14566570A7422FDBA360DC3EDEADD8AC /* VRPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VRPicker.framework; path = VRPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1609EC4FD3E3A5CA73EE210CDE579EF1 /* VRPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VRPicker-prefix.pch"; sourceTree = "<group>"; };
-		1C1BFFA9C321D9D3BCED73014C4E533D /* PickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
-		28895757C8FFF0AB70BE00969717B935 /* Pods-VRPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2B6DFFCC0E69A2B8A916AC102B57C513 /* Pods-VRPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		30DEF6611FFFB60C94D612197CA94497 /* VRPickerConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRPickerConfiguration.swift; sourceTree = "<group>"; };
-		3585D900EA62D2A989A6FEDA8E91863D /* VRPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VRPicker-umbrella.h"; sourceTree = "<group>"; };
-		3C0FBE9E68AEA4608403E6EDA17FD972 /* Pods-VRPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VRPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		3FE8124E82AA07507BEFAB0771B311F4 /* VRPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VRPicker-dummy.m"; sourceTree = "<group>"; };
-		5069BA7352147885DAA5635BB81C2BA4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0152FE9A577291ECB9B3B8FB0DD32DA6 /* Pods-AZAPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AZAPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0198C1260B999210558A60FEC2D6C209 /* Pods-AZAPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AZAPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		03DB8629B5865E03350A110684F8234A /* Pods-AZAPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AZAPicker_Example.modulemap"; sourceTree = "<group>"; };
+		0BAB9942AB93A17780AECAAFFD8345A6 /* Pods-AZAPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AZAPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0FBB58DA57B888762A659EDD12A71774 /* PickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		1E04668A1F1019D8FA51B194004F904A /* AZAPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AZAPicker-dummy.m"; sourceTree = "<group>"; };
+		25117006D137CC15144D734761A5F937 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40EFD627A8E2586CCF0E24FA85A7AE1C /* AZAPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AZAPicker.modulemap; sourceTree = "<group>"; };
+		41537FE3DB4F97C6079D1CE551E9F580 /* AZAPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZAPicker-umbrella.h"; sourceTree = "<group>"; };
+		4995D6B97CF865F116CBC33F52F5213C /* VRPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRPicker.swift; sourceTree = "<group>"; };
+		51DB1AA9896AF356B3D9E8BFA95882F1 /* Pods-AZAPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AZAPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		541B00A75ED08E733FC87A9886200C76 /* Pods-AZAPicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AZAPicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		580F752F8DBF83870B0494B21D92CC9B /* Pods-AZAPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AZAPicker_Example-umbrella.h"; sourceTree = "<group>"; };
 		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		619A680AFD98306CF54C067738C01248 /* Pods-VRPicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VRPicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		6427A0CEF816269163F4820E88ECCA04 /* Pods_VRPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VRPicker_Tests.framework; path = "Pods-VRPicker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6647931DC36D0087764241AA13136A6B /* Pods-VRPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VRPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6A50C766E1A44DECA38A3A8DB4E66481 /* HelperFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
-		7DF955934A7DD1B4805AFC7E30EF4542 /* Pods-VRPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6378047DCF03284F888A3C5091CA8E8B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A60619297A3E1EE8DDF636370DD4306 /* AZAPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZAPicker-prefix.pch"; sourceTree = "<group>"; };
+		6B300F04BB4CF7A5287F7AE36DF6B611 /* AZAPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AZAPicker.framework; path = AZAPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D93A4379171AAAA8F225DBB3FB31C9C /* Pods-AZAPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZAPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		731B7EA38C877A417656754CFAAB250B /* Pods-AZAPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AZAPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		782A3F76CA7EEC58A1E37F80E963D25B /* Pods-AZAPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AZAPicker_Example-dummy.m"; sourceTree = "<group>"; };
 		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8707B59FFA4DF8FA0E778B8B5E7D5F0A /* Pods-VRPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VRPicker_Example-umbrella.h"; sourceTree = "<group>"; };
-		8F76D80FA6761E202B0C39436F15D066 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9183D76BC5B51F06142DFDA075CF61DE /* AZAPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AZAPicker.xcconfig; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		950763802FC9C6045F016F4BA4773A4A /* Pods_VRPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VRPicker_Example.framework; path = "Pods-VRPicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9BDF18DFDA00FA5F54BC55969906E52F /* Pods-VRPicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VRPicker_Tests-resources.sh"; sourceTree = "<group>"; };
-		9EDC017A09B31EDD971EDDD037F8F763 /* Pods-VRPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VRPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9F7E8A25FEC84C8B05A9C73FC2EE45FC /* Pods-VRPicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VRPicker_Example-resources.sh"; sourceTree = "<group>"; };
-		C47017BD6E9C3AA1D942AB9A199123BD /* VRPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRPicker.swift; sourceTree = "<group>"; };
-		C6A4B33EA4942DF9B62365430C2837F5 /* Pods-VRPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D5866FC6D0156D6771F8EB01ED526780 /* Pods-VRPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VRPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D959C67BF08C8E852AC2AD25456BE3BD /* Pods-VRPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VRPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DD70864F7A089687CBF69F9329899740 /* VRPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VRPicker.xcconfig; sourceTree = "<group>"; };
-		E55C918333E0E1FAEC2895EC268EEB5C /* Pods-VRPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VRPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		ED246D23539D919F88493B767E83E2B5 /* Pods-VRPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VRPicker_Example.modulemap"; sourceTree = "<group>"; };
-		FC7FB0FAF247A40DA3773A2E07A6AE59 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF0ECF2373CE9BE15E5486420C1BDC50 /* Pods-VRPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VRPicker_Example-dummy.m"; sourceTree = "<group>"; };
+		9BB5499E0A3A17B47D1FF4551BEB16E6 /* VRPickerConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRPickerConfiguration.swift; sourceTree = "<group>"; };
+		9D1BA8E24239201FB430C4CC75216D4B /* Pods-AZAPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZAPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9F234DCEAA71C346CEA0652B65D27AC8 /* Pods-AZAPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZAPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A77C4B8AB3F52A1A7AD95E308CA9A9B7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7D6D3AE6A636170DAD2CC5AA67FD6CD /* HelperFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		AFE0E951D2C05E3C07E40D2DB772896E /* Pods-AZAPicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AZAPicker_Tests-resources.sh"; sourceTree = "<group>"; };
+		B493751EDBA7B70BEA52C311DBC1C625 /* Pods_AZAPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AZAPicker_Tests.framework; path = "Pods-AZAPicker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C491E40A7A1A44B289C55D0BF54E83B6 /* Pods-AZAPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AZAPicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		D3B9CF39BB750019BC60CAEFC011E0D5 /* Pods-AZAPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZAPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E4668F37AB208D5B848102EB44650CEA /* Pods-AZAPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AZAPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F7A9BAC4FD64681185498A79F9C164B6 /* Pods-AZAPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AZAPicker_Tests.modulemap"; sourceTree = "<group>"; };
+		FE33B8C5A97EE277F475D6A77F5E938F /* Pods_AZAPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AZAPicker_Example.framework; path = "Pods-AZAPicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE96F72B0F07453284D43DF51D8E1574 /* Pods-AZAPicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AZAPicker_Example-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		16C54AB3EFBB9A949701421D8CAB6ED6 /* Frameworks */ = {
+		908A8C01C0FE04AC6EC6B02C894C9D82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71800EFD17144A8DFE2A3138406C15AB /* Foundation.framework in Frameworks */,
-				4CC83CD998E454E19592A9EC11E362D3 /* UIKit.framework in Frameworks */,
+				9DB953F8F0D5B6E4AC31DFE654ECCA41 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		232C7AF94A82B2DA8CD250E316BD4C6A /* Frameworks */ = {
+		D8B9CE5D7B7993259B697091CF813AE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D29C05E3531B7FB2FD31CB8C369309DB /* Foundation.framework in Frameworks */,
+				0FDF3BE8B4A2A760359B8CD76BAFC957 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA5D107B090E17775BDF2EDCBC9B1E01 /* Frameworks */ = {
+		DA3D47194A21FE071C1D2586A9390A03 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60A697595C6F2EDAD6BB41914165E867 /* Foundation.framework in Frameworks */,
+				F2343D25469909ABCC9762F90C3A8B8A /* Foundation.framework in Frameworks */,
+				D8E4BD828B9768865A655BBC99C8B5AC /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		413A76DDB9E3AAA51AD2787A6FB24EAF /* Support Files */ = {
+		2B46950CD1E96E7ACA318A7C9508E225 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FC7FB0FAF247A40DA3773A2E07A6AE59 /* Info.plist */,
-				137E22397199AD202270DC5E241CFAA9 /* VRPicker.modulemap */,
-				DD70864F7A089687CBF69F9329899740 /* VRPicker.xcconfig */,
-				3FE8124E82AA07507BEFAB0771B311F4 /* VRPicker-dummy.m */,
-				1609EC4FD3E3A5CA73EE210CDE579EF1 /* VRPicker-prefix.pch */,
-				3585D900EA62D2A989A6FEDA8E91863D /* VRPicker-umbrella.h */,
+				A7D6D3AE6A636170DAD2CC5AA67FD6CD /* HelperFunctions.swift */,
+				0FBB58DA57B888762A659EDD12A71774 /* PickerView.swift */,
+				4995D6B97CF865F116CBC33F52F5213C /* VRPicker.swift */,
+				9BB5499E0A3A17B47D1FF4551BEB16E6 /* VRPickerConfiguration.swift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/VRPicker";
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -123,91 +121,97 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4BB90ED407C41CC6280937BD58855883 /* Targets Support Files */ = {
+		747434AEBE09128DC4023922B75F0A07 /* Pods-AZAPicker_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6FC8E9D60FE7FED8AFA92AF308D11CA7 /* Pods-VRPicker_Example */,
-				FA484F61DE76744B3282E3CEBCEC4292 /* Pods-VRPicker_Tests */,
+				6378047DCF03284F888A3C5091CA8E8B /* Info.plist */,
+				F7A9BAC4FD64681185498A79F9C164B6 /* Pods-AZAPicker_Tests.modulemap */,
+				0198C1260B999210558A60FEC2D6C209 /* Pods-AZAPicker_Tests-acknowledgements.markdown */,
+				E4668F37AB208D5B848102EB44650CEA /* Pods-AZAPicker_Tests-acknowledgements.plist */,
+				C491E40A7A1A44B289C55D0BF54E83B6 /* Pods-AZAPicker_Tests-dummy.m */,
+				541B00A75ED08E733FC87A9886200C76 /* Pods-AZAPicker_Tests-frameworks.sh */,
+				AFE0E951D2C05E3C07E40D2DB772896E /* Pods-AZAPicker_Tests-resources.sh */,
+				51DB1AA9896AF356B3D9E8BFA95882F1 /* Pods-AZAPicker_Tests-umbrella.h */,
+				D3B9CF39BB750019BC60CAEFC011E0D5 /* Pods-AZAPicker_Tests.debug.xcconfig */,
+				9D1BA8E24239201FB430C4CC75216D4B /* Pods-AZAPicker_Tests.release.xcconfig */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		693A79308F4FCAE814952E714B0BCD8C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				950763802FC9C6045F016F4BA4773A4A /* Pods_VRPicker_Example.framework */,
-				6427A0CEF816269163F4820E88ECCA04 /* Pods_VRPicker_Tests.framework */,
-				14566570A7422FDBA360DC3EDEADD8AC /* VRPicker.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		6A2869B56B632E57E05131F5AFB0E3F4 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				6A50C766E1A44DECA38A3A8DB4E66481 /* HelperFunctions.swift */,
-				1C1BFFA9C321D9D3BCED73014C4E533D /* PickerView.swift */,
-				C47017BD6E9C3AA1D942AB9A199123BD /* VRPicker.swift */,
-				30DEF6611FFFB60C94D612197CA94497 /* VRPickerConfiguration.swift */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		6FC8E9D60FE7FED8AFA92AF308D11CA7 /* Pods-VRPicker_Example */ = {
-			isa = PBXGroup;
-			children = (
-				8F76D80FA6761E202B0C39436F15D066 /* Info.plist */,
-				ED246D23539D919F88493B767E83E2B5 /* Pods-VRPicker_Example.modulemap */,
-				6647931DC36D0087764241AA13136A6B /* Pods-VRPicker_Example-acknowledgements.markdown */,
-				3C0FBE9E68AEA4608403E6EDA17FD972 /* Pods-VRPicker_Example-acknowledgements.plist */,
-				FF0ECF2373CE9BE15E5486420C1BDC50 /* Pods-VRPicker_Example-dummy.m */,
-				D5866FC6D0156D6771F8EB01ED526780 /* Pods-VRPicker_Example-frameworks.sh */,
-				9F7E8A25FEC84C8B05A9C73FC2EE45FC /* Pods-VRPicker_Example-resources.sh */,
-				8707B59FFA4DF8FA0E778B8B5E7D5F0A /* Pods-VRPicker_Example-umbrella.h */,
-				7DF955934A7DD1B4805AFC7E30EF4542 /* Pods-VRPicker_Example.debug.xcconfig */,
-				2B6DFFCC0E69A2B8A916AC102B57C513 /* Pods-VRPicker_Example.release.xcconfig */,
-			);
-			name = "Pods-VRPicker_Example";
-			path = "Target Support Files/Pods-VRPicker_Example";
-			sourceTree = "<group>";
-		};
-		77B0356D90849806FF179FD5866944F6 /* VRPicker */ = {
-			isa = PBXGroup;
-			children = (
-				413A76DDB9E3AAA51AD2787A6FB24EAF /* Support Files */,
-				8CE304A14E834363C2C52988D0D24BFF /* VRPicker */,
-			);
-			name = VRPicker;
-			path = ../..;
+			name = "Pods-AZAPicker_Tests";
+			path = "Target Support Files/Pods-AZAPicker_Tests";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				8CC1EBC2C88C86A458A753865A0AF6E3 /* Development Pods */,
+				8DB20A0D4ADA7BD95B9BC8EE5F5F4246 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				693A79308F4FCAE814952E714B0BCD8C /* Products */,
-				4BB90ED407C41CC6280937BD58855883 /* Targets Support Files */,
+				A8DA7290B3A17645181602F93092CD1E /* Products */,
+				9549652D9DA2B9F5C3D2CA9A5AB740E7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8CC1EBC2C88C86A458A753865A0AF6E3 /* Development Pods */ = {
+		8DB20A0D4ADA7BD95B9BC8EE5F5F4246 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				77B0356D90849806FF179FD5866944F6 /* VRPicker */,
+				C92EE55CD715514CCA32B27E7DA2FF28 /* AZAPicker */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		8CE304A14E834363C2C52988D0D24BFF /* VRPicker */ = {
+		9549652D9DA2B9F5C3D2CA9A5AB740E7 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6A2869B56B632E57E05131F5AFB0E3F4 /* Classes */,
+				CD334843F87F9067F7D2BA7A0720FA3E /* Pods-AZAPicker_Example */,
+				747434AEBE09128DC4023922B75F0A07 /* Pods-AZAPicker_Tests */,
 			);
-			name = VRPicker;
-			path = VRPicker;
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A0EA477FC2C9842D9C4632D0480BCE0A /* AZAPicker */ = {
+			isa = PBXGroup;
+			children = (
+				2B46950CD1E96E7ACA318A7C9508E225 /* Classes */,
+			);
+			name = AZAPicker;
+			path = AZAPicker;
+			sourceTree = "<group>";
+		};
+		A8DA7290B3A17645181602F93092CD1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B300F04BB4CF7A5287F7AE36DF6B611 /* AZAPicker.framework */,
+				FE33B8C5A97EE277F475D6A77F5E938F /* Pods_AZAPicker_Example.framework */,
+				B493751EDBA7B70BEA52C311DBC1C625 /* Pods_AZAPicker_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C92EE55CD715514CCA32B27E7DA2FF28 /* AZAPicker */ = {
+			isa = PBXGroup;
+			children = (
+				A0EA477FC2C9842D9C4632D0480BCE0A /* AZAPicker */,
+				F15C6269E75A6979A570B2F1B6B5F84F /* Support Files */,
+			);
+			name = AZAPicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CD334843F87F9067F7D2BA7A0720FA3E /* Pods-AZAPicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A77C4B8AB3F52A1A7AD95E308CA9A9B7 /* Info.plist */,
+				03DB8629B5865E03350A110684F8234A /* Pods-AZAPicker_Example.modulemap */,
+				0152FE9A577291ECB9B3B8FB0DD32DA6 /* Pods-AZAPicker_Example-acknowledgements.markdown */,
+				0BAB9942AB93A17780AECAAFFD8345A6 /* Pods-AZAPicker_Example-acknowledgements.plist */,
+				782A3F76CA7EEC58A1E37F80E963D25B /* Pods-AZAPicker_Example-dummy.m */,
+				731B7EA38C877A417656754CFAAB250B /* Pods-AZAPicker_Example-frameworks.sh */,
+				FE96F72B0F07453284D43DF51D8E1574 /* Pods-AZAPicker_Example-resources.sh */,
+				580F752F8DBF83870B0494B21D92CC9B /* Pods-AZAPicker_Example-umbrella.h */,
+				6D93A4379171AAAA8F225DBB3FB31C9C /* Pods-AZAPicker_Example.debug.xcconfig */,
+				9F234DCEAA71C346CEA0652B65D27AC8 /* Pods-AZAPicker_Example.release.xcconfig */,
+			);
+			name = "Pods-AZAPicker_Example";
+			path = "Target Support Files/Pods-AZAPicker_Example";
 			sourceTree = "<group>";
 		};
 		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
@@ -219,104 +223,100 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		FA484F61DE76744B3282E3CEBCEC4292 /* Pods-VRPicker_Tests */ = {
+		F15C6269E75A6979A570B2F1B6B5F84F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5069BA7352147885DAA5635BB81C2BA4 /* Info.plist */,
-				07BF5D03A05B809347895E24A1EB5CC1 /* Pods-VRPicker_Tests.modulemap */,
-				D959C67BF08C8E852AC2AD25456BE3BD /* Pods-VRPicker_Tests-acknowledgements.markdown */,
-				E55C918333E0E1FAEC2895EC268EEB5C /* Pods-VRPicker_Tests-acknowledgements.plist */,
-				117BC05E892481F94A9543D6A10C8DA2 /* Pods-VRPicker_Tests-dummy.m */,
-				619A680AFD98306CF54C067738C01248 /* Pods-VRPicker_Tests-frameworks.sh */,
-				9BDF18DFDA00FA5F54BC55969906E52F /* Pods-VRPicker_Tests-resources.sh */,
-				9EDC017A09B31EDD971EDDD037F8F763 /* Pods-VRPicker_Tests-umbrella.h */,
-				28895757C8FFF0AB70BE00969717B935 /* Pods-VRPicker_Tests.debug.xcconfig */,
-				C6A4B33EA4942DF9B62365430C2837F5 /* Pods-VRPicker_Tests.release.xcconfig */,
+				40EFD627A8E2586CCF0E24FA85A7AE1C /* AZAPicker.modulemap */,
+				9183D76BC5B51F06142DFDA075CF61DE /* AZAPicker.xcconfig */,
+				1E04668A1F1019D8FA51B194004F904A /* AZAPicker-dummy.m */,
+				6A60619297A3E1EE8DDF636370DD4306 /* AZAPicker-prefix.pch */,
+				41537FE3DB4F97C6079D1CE551E9F580 /* AZAPicker-umbrella.h */,
+				25117006D137CC15144D734761A5F937 /* Info.plist */,
 			);
-			name = "Pods-VRPicker_Tests";
-			path = "Target Support Files/Pods-VRPicker_Tests";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AZAPicker";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		432C3171887A136D49B402E342CCA6D1 /* Headers */ = {
+		75F1AFAA12A0549C47DBC62F9CB28484 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				437D9091E74F2FE5BB912ED7CE96BA08 /* Pods-VRPicker_Tests-umbrella.h in Headers */,
+				954A2239281C0D7EF5AC03CEB0534034 /* Pods-AZAPicker_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67D5A0ABE19E06131D6BA7F70225BBC4 /* Headers */ = {
+		8D85857A29FA51C23445A59B04DF9D79 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3AA75812294063182C34B823622F306 /* Pods-VRPicker_Example-umbrella.h in Headers */,
+				D9B39A44368FEFB51AF29BD9B224ECDD /* AZAPicker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF74DF9D276605AC84793912467F4972 /* Headers */ = {
+		B601B2629A1ABEC831C97F309614BFB6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B2A42BD9E7E36C11BA1F6730BB220A6 /* VRPicker-umbrella.h in Headers */,
+				16624689D68A4C577601ADC122D615A2 /* Pods-AZAPicker_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4F427503B5A9887E3A849B5F9B1A4B58 /* VRPicker */ = {
+		43F49041A4AD9E594204EBDBB480C0AE /* AZAPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 325CBF929996EAE9D33715B8E366D655 /* Build configuration list for PBXNativeTarget "VRPicker" */;
+			buildConfigurationList = 45D6330D64A3D7144F422EF66FCEED99 /* Build configuration list for PBXNativeTarget "AZAPicker" */;
 			buildPhases = (
-				75BFB2327C90F6761924529E3F9FA77A /* Sources */,
-				16C54AB3EFBB9A949701421D8CAB6ED6 /* Frameworks */,
-				DF74DF9D276605AC84793912467F4972 /* Headers */,
+				E9FE90028FA90C99E422E89B7594B5FE /* Sources */,
+				DA3D47194A21FE071C1D2586A9390A03 /* Frameworks */,
+				8D85857A29FA51C23445A59B04DF9D79 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = VRPicker;
-			productName = VRPicker;
-			productReference = 14566570A7422FDBA360DC3EDEADD8AC /* VRPicker.framework */;
+			name = AZAPicker;
+			productName = AZAPicker;
+			productReference = 6B300F04BB4CF7A5287F7AE36DF6B611 /* AZAPicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9E815E50E5E7DF3AB857EB14178B740F /* Pods-VRPicker_Example */ = {
+		728CE925F20FC904AC567AE36F18D8A5 /* Pods-AZAPicker_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 71A4B3C40CAEC658C32E28A6465787A3 /* Build configuration list for PBXNativeTarget "Pods-VRPicker_Example" */;
+			buildConfigurationList = 174AA4A5E38E7913A2B9EDC2F2D0C432 /* Build configuration list for PBXNativeTarget "Pods-AZAPicker_Example" */;
 			buildPhases = (
-				3B1936B3C7C8EFC4A1C4AF7FD627CCCF /* Sources */,
-				BA5D107B090E17775BDF2EDCBC9B1E01 /* Frameworks */,
-				67D5A0ABE19E06131D6BA7F70225BBC4 /* Headers */,
+				8BFD434DD9C010E0CC04FEE7E0D117D0 /* Sources */,
+				D8B9CE5D7B7993259B697091CF813AE8 /* Frameworks */,
+				75F1AFAA12A0549C47DBC62F9CB28484 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F9EDCB24F84911E237A4A1F61519D18F /* PBXTargetDependency */,
+				FEE55FF69B4325FE5881F0AAAF38C6F9 /* PBXTargetDependency */,
 			);
-			name = "Pods-VRPicker_Example";
-			productName = "Pods-VRPicker_Example";
-			productReference = 950763802FC9C6045F016F4BA4773A4A /* Pods_VRPicker_Example.framework */;
+			name = "Pods-AZAPicker_Example";
+			productName = "Pods-AZAPicker_Example";
+			productReference = FE33B8C5A97EE277F475D6A77F5E938F /* Pods_AZAPicker_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CC0FD3A1CEDE677F70F4053854F4DD10 /* Pods-VRPicker_Tests */ = {
+		9D04377037FB425B63E18C10F3531DE5 /* Pods-AZAPicker_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBD3E101371F1AFF63974D38915DA022 /* Build configuration list for PBXNativeTarget "Pods-VRPicker_Tests" */;
+			buildConfigurationList = 51530CA58D421BD41BD6C9AE49330FCD /* Build configuration list for PBXNativeTarget "Pods-AZAPicker_Tests" */;
 			buildPhases = (
-				522BCC6744377B91DF2F23D6B814FAF3 /* Sources */,
-				232C7AF94A82B2DA8CD250E316BD4C6A /* Frameworks */,
-				432C3171887A136D49B402E342CCA6D1 /* Headers */,
+				0B773D5531CD79E98346B58B1C01939D /* Sources */,
+				908A8C01C0FE04AC6EC6B02C894C9D82 /* Frameworks */,
+				B601B2629A1ABEC831C97F309614BFB6 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-VRPicker_Tests";
-			productName = "Pods-VRPicker_Tests";
-			productReference = 6427A0CEF816269163F4820E88ECCA04 /* Pods_VRPicker_Tests.framework */;
+			name = "Pods-AZAPicker_Tests";
+			productName = "Pods-AZAPicker_Tests";
+			productReference = B493751EDBA7B70BEA52C311DBC1C625 /* Pods_AZAPicker_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -336,97 +336,61 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 693A79308F4FCAE814952E714B0BCD8C /* Products */;
+			productRefGroup = A8DA7290B3A17645181602F93092CD1E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9E815E50E5E7DF3AB857EB14178B740F /* Pods-VRPicker_Example */,
-				CC0FD3A1CEDE677F70F4053854F4DD10 /* Pods-VRPicker_Tests */,
-				4F427503B5A9887E3A849B5F9B1A4B58 /* VRPicker */,
+				43F49041A4AD9E594204EBDBB480C0AE /* AZAPicker */,
+				728CE925F20FC904AC567AE36F18D8A5 /* Pods-AZAPicker_Example */,
+				9D04377037FB425B63E18C10F3531DE5 /* Pods-AZAPicker_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3B1936B3C7C8EFC4A1C4AF7FD627CCCF /* Sources */ = {
+		0B773D5531CD79E98346B58B1C01939D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F449D5281623A4A3B420F4AD5641DCD9 /* Pods-VRPicker_Example-dummy.m in Sources */,
+				6BD7CE4EA40217AD3C7183F0D88DBC75 /* Pods-AZAPicker_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		522BCC6744377B91DF2F23D6B814FAF3 /* Sources */ = {
+		8BFD434DD9C010E0CC04FEE7E0D117D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E4770974F4ACEDF8EB535D28C455F53 /* Pods-VRPicker_Tests-dummy.m in Sources */,
+				1D82C2694364745653518806623D5C2C /* Pods-AZAPicker_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75BFB2327C90F6761924529E3F9FA77A /* Sources */ = {
+		E9FE90028FA90C99E422E89B7594B5FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED2DF21E07922A89C08144C8F9E13ECD /* HelperFunctions.swift in Sources */,
-				558693BA46439E0FE79838386AD88489 /* PickerView.swift in Sources */,
-				B2DFAAFBCFE42626285A591D0FFE85AB /* VRPicker-dummy.m in Sources */,
-				FA8FD579180BA1D802C18B7B48B66E83 /* VRPicker.swift in Sources */,
-				355D2DAEAE72CC9FC00B785AACF5EE9F /* VRPickerConfiguration.swift in Sources */,
+				16EE4D8E55CC43ABA73A69FD111BF922 /* AZAPicker-dummy.m in Sources */,
+				3E66BD7B443F070507A6A4D60A36AA2F /* HelperFunctions.swift in Sources */,
+				73266385AD93E50F210E99C67BBF456C /* PickerView.swift in Sources */,
+				DCADE2FB2B40079ED159B9CD0867D8CC /* VRPicker.swift in Sources */,
+				02D64E5F8C31820613E5D3817D510D83 /* VRPickerConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F9EDCB24F84911E237A4A1F61519D18F /* PBXTargetDependency */ = {
+		FEE55FF69B4325FE5881F0AAAF38C6F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = VRPicker;
-			target = 4F427503B5A9887E3A849B5F9B1A4B58 /* VRPicker */;
-			targetProxy = F31FEC478CE8ABF10C676E47876998BE /* PBXContainerItemProxy */;
+			name = AZAPicker;
+			target = 43F49041A4AD9E594204EBDBB480C0AE /* AZAPicker */;
+			targetProxy = 92763ED670F3BAF4AA80E0D56829138F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05C0329BD199E7B04D4E9F4D63DEF46B /* Debug */ = {
+		23BB25E810520D41C3292D3222D1270B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28895757C8FFF0AB70BE00969717B935 /* Pods-VRPicker_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-VRPicker_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VRPicker_Tests/Pods-VRPicker_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_VRPicker_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3F5EC9168F9964150B6BBFFAB560D491 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD70864F7A089687CBF69F9329899740 /* VRPicker.xcconfig */;
+			baseConfigurationReference = 9F234DCEAA71C346CEA0652B65D27AC8 /* Pods-AZAPicker_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -439,14 +403,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/VRPicker/VRPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VRPicker/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-AZAPicker_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/VRPicker/VRPicker.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AZAPicker_Example/Pods-AZAPicker_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = VRPicker;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AZAPicker_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -455,39 +423,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		441195C0933D54B3636599A6777BB930 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD70864F7A089687CBF69F9329899740 /* VRPicker.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/VRPicker/VRPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VRPicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/VRPicker/VRPicker.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = VRPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -533,46 +468,9 @@
 			};
 			name = Debug;
 		};
-		7E142DA8C888E5B546D152EA096DAB3A /* Debug */ = {
+		6ACEB9877AE877A17B9FF4483EFEF28E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DF955934A7DD1B4805AFC7E30EF4542 /* Pods-VRPicker_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-VRPicker_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VRPicker_Example/Pods-VRPicker_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_VRPicker_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9F1AE30C980B5D9D4C091E37700FB073 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B6DFFCC0E69A2B8A916AC102B57C513 /* Pods-VRPicker_Example.release.xcconfig */;
+			baseConfigurationReference = 9D1BA8E24239201FB430C4CC75216D4B /* Pods-AZAPicker_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -585,18 +483,83 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-VRPicker_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-AZAPicker_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VRPicker_Example/Pods-VRPicker_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-AZAPicker_Tests/Pods-AZAPicker_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_VRPicker_Example;
+				PRODUCT_NAME = Pods_AZAPicker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B0FDBFDEFF9DD0B36E39C763338C98A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9183D76BC5B51F06142DFDA075CF61DE /* AZAPicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AZAPicker/AZAPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AZAPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AZAPicker/AZAPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AZAPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		81DD5541B0D07C2095AB597E2CB71254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9183D76BC5B51F06142DFDA075CF61DE /* AZAPicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AZAPicker/AZAPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AZAPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AZAPicker/AZAPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AZAPicker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -646,33 +609,33 @@
 			};
 			name = Release;
 		};
-		F91B4069567D71B887A7B0AFDF40E64A /* Release */ = {
+		F8B7710C99017B4E45E45926183860D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6A4B33EA4942DF9B62365430C2837F5 /* Pods-VRPicker_Tests.release.xcconfig */;
+			baseConfigurationReference = D3B9CF39BB750019BC60CAEFC011E0D5 /* Pods-AZAPicker_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-VRPicker_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-AZAPicker_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VRPicker_Tests/Pods-VRPicker_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MODULEMAP_FILE = "Target Support Files/Pods-AZAPicker_Tests/Pods-AZAPicker_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_VRPicker_Tests;
+				PRODUCT_NAME = Pods_AZAPicker_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -680,11 +643,57 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
+		};
+		F95ACA55DA83DEF17ABD1BD06BD66921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D93A4379171AAAA8F225DBB3FB31C9C /* Pods-AZAPicker_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AZAPicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AZAPicker_Example/Pods-AZAPicker_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AZAPicker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		174AA4A5E38E7913A2B9EDC2F2D0C432 /* Build configuration list for PBXNativeTarget "Pods-AZAPicker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95ACA55DA83DEF17ABD1BD06BD66921 /* Debug */,
+				23BB25E810520D41C3292D3222D1270B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -694,29 +703,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		325CBF929996EAE9D33715B8E366D655 /* Build configuration list for PBXNativeTarget "VRPicker" */ = {
+		45D6330D64A3D7144F422EF66FCEED99 /* Build configuration list for PBXNativeTarget "AZAPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				441195C0933D54B3636599A6777BB930 /* Debug */,
-				3F5EC9168F9964150B6BBFFAB560D491 /* Release */,
+				6B0FDBFDEFF9DD0B36E39C763338C98A /* Debug */,
+				81DD5541B0D07C2095AB597E2CB71254 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		71A4B3C40CAEC658C32E28A6465787A3 /* Build configuration list for PBXNativeTarget "Pods-VRPicker_Example" */ = {
+		51530CA58D421BD41BD6C9AE49330FCD /* Build configuration list for PBXNativeTarget "Pods-AZAPicker_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7E142DA8C888E5B546D152EA096DAB3A /* Debug */,
-				9F1AE30C980B5D9D4C091E37700FB073 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CBD3E101371F1AFF63974D38915DA022 /* Build configuration list for PBXNativeTarget "Pods-VRPicker_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				05C0329BD199E7B04D4E9F4D63DEF46B /* Debug */,
-				F91B4069567D71B887A7B0AFDF40E64A /* Release */,
+				F8B7710C99017B4E45E45926183860D5 /* Debug */,
+				6ACEB9877AE877A17B9FF4483EFEF28E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -8,12 +8,10 @@ post_install do |installer|
   end
 end
 
-target 'VRPicker_Example' do
-  pod 'VRPicker', :path => '../'
+target 'AZAPicker_Example' do
+  pod 'AZAPicker', :path => '../'
 
-  target 'VRPicker_Tests' do
+  target 'AZAPicker_Tests' do
     inherit! :search_paths
-
-    
   end
 end

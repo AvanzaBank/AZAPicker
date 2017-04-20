@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import VRPicker
+import AZAPicker
 
 class Tests: XCTestCase {
     

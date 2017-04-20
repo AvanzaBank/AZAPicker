@@ -1,9 +1,9 @@
-# VRPicker
+# AZAPicker
 
-[![CI Status](http://img.shields.io/travis/vrutberg/VRPicker.svg?style=flat)](https://travis-ci.org/vrutberg/VRPicker)
-[![Version](https://img.shields.io/cocoapods/v/VRPicker.svg?style=flat)](http://cocoapods.org/pods/VRPicker)
-[![License](https://img.shields.io/cocoapods/l/VRPicker.svg?style=flat)](http://cocoapods.org/pods/VRPicker)
-[![Platform](https://img.shields.io/cocoapods/p/VRPicker.svg?style=flat)](http://cocoapods.org/pods/VRPicker)
+[![CI Status](http://img.shields.io/travis/avanzabank/AZAPicker.svg?style=flat)](https://travis-ci.org/avanzabank/AZAPicker)
+[![Version](https://img.shields.io/cocoapods/v/AZAPicker.svg?style=flat)](http://cocoapods.org/pods/AZAPicker)
+[![License](https://img.shields.io/cocoapods/l/AZAPicker.svg?style=flat)](http://cocoapods.org/pods/AZAPicker)
+[![Platform](https://img.shields.io/cocoapods/p/AZAPicker.svg?style=flat)](http://cocoapods.org/pods/AZAPicker)
 
 ## Example
 
@@ -13,33 +13,33 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-VRPicker is available through [CocoaPods](http://cocoapods.org). To install
+AZAPicker is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "VRPicker"
+pod "AZAPicker"
 ```
 
 ## Usage
 
-The `VRPicker` view is instantiated with an instance of `VRPickerConfiguration` and a `CGRect` for frame:
+The `AZAPicker` view is instantiated with an instance of `AZAPickerConfiguration` and a `CGRect` for frame:
 
 ```swift
-let config = VRPickerConfiguration(items: ...)
-let pickerView = VRPicker(with: config, frame: .zero)
+let config = AZAPickerConfiguration(items: ...)
+let pickerView = AZAPicker(with: config, frame: .zero)
 ```
 
-The `VRPickerDelegate` protocol can be implemented to receive updates about which item is currently selected.
+The `AZAPickerDelegate` protocol can be implemented to receive updates about which item is currently selected.
 
 ### Configuration
 
-`VRPickerConfiguration`, which is used when instantiating an instance of `VRPicker`, holds the various properties which can be configured.
+`AZAPickerConfiguration`, which is used when instantiating an instance of `AZAPicker`, holds the various properties which can be configured.
 
 All configuration properties have default values.
 
-#### `items: [VRPickerItem]` (no default value)
+#### `items: [AZAPickerItem]` (no default value)
 
-The list of items to display in the picker. The items must conform to the protocol `VRPickerItem`, which extends `CustomStringConvertible`.
+The list of items to display in the picker. The items must conform to the protocol `AZAPickerItem`, which extends `CustomStringConvertible`.
 
 #### `defaultSelectedIndex: Int` (default value: `0`)
 
@@ -91,4 +91,4 @@ Velocity coefficient for the scroll views.
 
 ## License
 
-VRPicker is available under the Apache 2.0 license. See the LICENSE file for more info.
+AZAPicker is available under the Apache 2.0 license. See the LICENSE file for more info.
