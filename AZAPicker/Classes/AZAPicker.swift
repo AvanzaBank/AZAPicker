@@ -8,14 +8,11 @@
 import Foundation
 import UIKit
 
-public protocol AZAPickerDelegate: class {
-    func picker<T>(_ sender: AZAPicker, didSelect item: T)
-}
+public class AZAPicker<T: AZAPickerItem>: UIView, PickerViewDelegate {
+    private let configuration: AZAPickerConfiguration<T>
 
-public class AZAPicker: UIView, PickerViewDelegate {
-    private let configuration: AZAPickerConfiguration
-
-    public weak var delegate: AZAPickerDelegate?
+    public typealias AZAPickerItemPicked = (AZAPicker<T>, T) -> ()
+    public var onPickItem: AZAPickerItemPicked?
 
     private var maskingLayer: CAShapeLayer?
     private var circleLayer: CAShapeLayer?
@@ -23,7 +20,7 @@ public class AZAPicker: UIView, PickerViewDelegate {
     
     private(set) var selectedIndex: Int
 
-    public init(with configuration: AZAPickerConfiguration, frame: CGRect) {
+    public init(with configuration: AZAPickerConfiguration<T>, frame: CGRect) {
         self.configuration = configuration
         selectedIndex = configuration.defaultSelectedIndex
 
@@ -193,7 +190,7 @@ public class AZAPicker: UIView, PickerViewDelegate {
 
     func picker(_ sender: PickerView, didSelectIndex index: Int) {
         selectedIndex = index
-        delegate?.picker(self, didSelect: configuration.items[selectedIndex])
+        onPickItem?(self, configuration.items[selectedIndex])
     }
 
     private enum GradientLayerType {
