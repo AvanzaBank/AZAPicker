@@ -41,7 +41,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7F8707B91EA93FE200226AC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7FEE63291EA93C4800ED2697 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		7FEE63291EA93C4800ED2697 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		842D92A9CE6860916F3736DD /* Pods_AZAPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZAPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F6C5382AE55B52596CEE1D9 /* Pods-AZAPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZAPicker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AZAPicker_Example/Pods-AZAPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A61B4D39419A76D1896E87C1 /* Pods-AZAPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZAPicker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AZAPicker_Tests/Pods-AZAPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };

@@ -15,8 +15,8 @@ public enum GradientPosition {
 
 public protocol AZAPickerItem: CustomStringConvertible {}
 
-public struct AZAPickerConfiguration {
-    let items: [AZAPickerItem]
+public struct AZAPickerConfiguration<itemType: AZAPickerItem> {
+    let items: [itemType]
     let defaultSelectedIndex: Int
     
     let selectedFont: UIFont
@@ -34,7 +34,7 @@ public struct AZAPickerConfiguration {
     let itemWidth: Int
     let sliderVelocityCoefficient: Double
     
-    public init(items: [AZAPickerItem],
+    public init(items: [itemType],
                 defaultSelectedIndex: Int = 0,
 
                 selectedFont: UIFont = UIFont.boldSystemFont(ofSize: 20),

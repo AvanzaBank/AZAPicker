@@ -17,20 +17,20 @@ struct PickerItem: AZAPickerItem {
     }
 }
 
-class ViewController: UIViewController, AZAPickerDelegate {
+class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let config = AZAPickerConfiguration(items: (1...100).map { PickerItem(number: $0) },
+        let config = AZAPickerConfiguration<PickerItem>(items: (1...100).map { PickerItem(number: $0) },
                                            defaultSelectedIndex: 99,
                                            selectionRadiusInPercent: 0.5,
                                            itemWidth: 80)
         
-        let pickerView = AZAPicker(with: config, frame: .zero)
+        let pickerView = AZAPicker<PickerItem>(with: config, frame: .zero)
 
         pickerView.backgroundColor = .white
-        pickerView.delegate = self
+        pickerView.onPickItem = self.picker
         pickerView.translatesAutoresizingMaskIntoConstraints = false
         
         view.addSubview(pickerView)
@@ -44,8 +44,8 @@ class ViewController: UIViewController, AZAPickerDelegate {
         NSLayoutConstraint(item: pickerView, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 80).isActive = true
     }
     
-    func picker<T>(_ sender: AZAPicker, didSelect item: T) {
-        print("didSelectItem: \(item)")
+    func picker(sender: AZAPicker<PickerItem>, item: PickerItem) {
+        print("didPickItem: \(item)")
     }
 }
 

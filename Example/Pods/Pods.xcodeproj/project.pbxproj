@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02D64E5F8C31820613E5D3817D510D83 /* VRPickerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB5499E0A3A17B47D1FF4551BEB16E6 /* VRPickerConfiguration.swift */; };
+		02D64E5F8C31820613E5D3817D510D83 /* AZAPickerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB5499E0A3A17B47D1FF4551BEB16E6 /* AZAPickerConfiguration.swift */; };
 		0FDF3BE8B4A2A760359B8CD76BAFC957 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		16624689D68A4C577601ADC122D615A2 /* Pods-AZAPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51DB1AA9896AF356B3D9E8BFA95882F1 /* Pods-AZAPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		16EE4D8E55CC43ABA73A69FD111BF922 /* AZAPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E04668A1F1019D8FA51B194004F904A /* AZAPicker-dummy.m */; };
@@ -19,7 +19,7 @@
 		9DB953F8F0D5B6E4AC31DFE654ECCA41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		D8E4BD828B9768865A655BBC99C8B5AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
 		D9B39A44368FEFB51AF29BD9B224ECDD /* AZAPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41537FE3DB4F97C6079D1CE551E9F580 /* AZAPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCADE2FB2B40079ED159B9CD0867D8CC /* VRPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4995D6B97CF865F116CBC33F52F5213C /* VRPicker.swift */; };
+		DCADE2FB2B40079ED159B9CD0867D8CC /* AZAPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4995D6B97CF865F116CBC33F52F5213C /* AZAPicker.swift */; };
 		F2343D25469909ABCC9762F90C3A8B8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,39 +36,39 @@
 /* Begin PBXFileReference section */
 		0152FE9A577291ECB9B3B8FB0DD32DA6 /* Pods-AZAPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AZAPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0198C1260B999210558A60FEC2D6C209 /* Pods-AZAPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AZAPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		03DB8629B5865E03350A110684F8234A /* Pods-AZAPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AZAPicker_Example.modulemap"; sourceTree = "<group>"; };
+		03DB8629B5865E03350A110684F8234A /* Pods-AZAPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AZAPicker_Example.modulemap"; sourceTree = "<group>"; };
 		0BAB9942AB93A17780AECAAFFD8345A6 /* Pods-AZAPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AZAPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0FBB58DA57B888762A659EDD12A71774 /* PickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		1E04668A1F1019D8FA51B194004F904A /* AZAPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AZAPicker-dummy.m"; sourceTree = "<group>"; };
 		25117006D137CC15144D734761A5F937 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		40EFD627A8E2586CCF0E24FA85A7AE1C /* AZAPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AZAPicker.modulemap; sourceTree = "<group>"; };
+		40EFD627A8E2586CCF0E24FA85A7AE1C /* AZAPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AZAPicker.modulemap; sourceTree = "<group>"; };
 		41537FE3DB4F97C6079D1CE551E9F580 /* AZAPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZAPicker-umbrella.h"; sourceTree = "<group>"; };
-		4995D6B97CF865F116CBC33F52F5213C /* VRPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRPicker.swift; sourceTree = "<group>"; };
+		4995D6B97CF865F116CBC33F52F5213C /* AZAPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AZAPicker.swift; sourceTree = "<group>"; };
 		51DB1AA9896AF356B3D9E8BFA95882F1 /* Pods-AZAPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AZAPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
 		541B00A75ED08E733FC87A9886200C76 /* Pods-AZAPicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AZAPicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		580F752F8DBF83870B0494B21D92CC9B /* Pods-AZAPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AZAPicker_Example-umbrella.h"; sourceTree = "<group>"; };
 		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6378047DCF03284F888A3C5091CA8E8B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A60619297A3E1EE8DDF636370DD4306 /* AZAPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZAPicker-prefix.pch"; sourceTree = "<group>"; };
-		6B300F04BB4CF7A5287F7AE36DF6B611 /* AZAPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AZAPicker.framework; path = AZAPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B300F04BB4CF7A5287F7AE36DF6B611 /* AZAPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AZAPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D93A4379171AAAA8F225DBB3FB31C9C /* Pods-AZAPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZAPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		731B7EA38C877A417656754CFAAB250B /* Pods-AZAPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AZAPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
 		782A3F76CA7EEC58A1E37F80E963D25B /* Pods-AZAPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AZAPicker_Example-dummy.m"; sourceTree = "<group>"; };
 		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		9183D76BC5B51F06142DFDA075CF61DE /* AZAPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AZAPicker.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9BB5499E0A3A17B47D1FF4551BEB16E6 /* VRPickerConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRPickerConfiguration.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BB5499E0A3A17B47D1FF4551BEB16E6 /* AZAPickerConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AZAPickerConfiguration.swift; sourceTree = "<group>"; };
 		9D1BA8E24239201FB430C4CC75216D4B /* Pods-AZAPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZAPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9F234DCEAA71C346CEA0652B65D27AC8 /* Pods-AZAPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZAPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A77C4B8AB3F52A1A7AD95E308CA9A9B7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7D6D3AE6A636170DAD2CC5AA67FD6CD /* HelperFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
 		AFE0E951D2C05E3C07E40D2DB772896E /* Pods-AZAPicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AZAPicker_Tests-resources.sh"; sourceTree = "<group>"; };
-		B493751EDBA7B70BEA52C311DBC1C625 /* Pods_AZAPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AZAPicker_Tests.framework; path = "Pods-AZAPicker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B493751EDBA7B70BEA52C311DBC1C625 /* Pods_AZAPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZAPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C491E40A7A1A44B289C55D0BF54E83B6 /* Pods-AZAPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AZAPicker_Tests-dummy.m"; sourceTree = "<group>"; };
 		D3B9CF39BB750019BC60CAEFC011E0D5 /* Pods-AZAPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZAPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E4668F37AB208D5B848102EB44650CEA /* Pods-AZAPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AZAPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F7A9BAC4FD64681185498A79F9C164B6 /* Pods-AZAPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AZAPicker_Tests.modulemap"; sourceTree = "<group>"; };
-		FE33B8C5A97EE277F475D6A77F5E938F /* Pods_AZAPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AZAPicker_Example.framework; path = "Pods-AZAPicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A9BAC4FD64681185498A79F9C164B6 /* Pods-AZAPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AZAPicker_Tests.modulemap"; sourceTree = "<group>"; };
+		FE33B8C5A97EE277F475D6A77F5E938F /* Pods_AZAPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZAPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE96F72B0F07453284D43DF51D8E1574 /* Pods-AZAPicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AZAPicker_Example-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,10 +106,9 @@
 			children = (
 				A7D6D3AE6A636170DAD2CC5AA67FD6CD /* HelperFunctions.swift */,
 				0FBB58DA57B888762A659EDD12A71774 /* PickerView.swift */,
-				4995D6B97CF865F116CBC33F52F5213C /* VRPicker.swift */,
-				9BB5499E0A3A17B47D1FF4551BEB16E6 /* VRPickerConfiguration.swift */,
+				4995D6B97CF865F116CBC33F52F5213C /* AZAPicker.swift */,
+				9BB5499E0A3A17B47D1FF4551BEB16E6 /* AZAPickerConfiguration.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -172,7 +171,6 @@
 			children = (
 				2B46950CD1E96E7ACA318A7C9508E225 /* Classes */,
 			);
-			name = AZAPicker;
 			path = AZAPicker;
 			sourceTree = "<group>";
 		};
@@ -371,8 +369,8 @@
 				16EE4D8E55CC43ABA73A69FD111BF922 /* AZAPicker-dummy.m in Sources */,
 				3E66BD7B443F070507A6A4D60A36AA2F /* HelperFunctions.swift in Sources */,
 				73266385AD93E50F210E99C67BBF456C /* PickerView.swift in Sources */,
-				DCADE2FB2B40079ED159B9CD0867D8CC /* VRPicker.swift in Sources */,
-				02D64E5F8C31820613E5D3817D510D83 /* VRPickerConfiguration.swift in Sources */,
+				DCADE2FB2B40079ED159B9CD0867D8CC /* AZAPicker.swift in Sources */,
+				02D64E5F8C31820613E5D3817D510D83 /* AZAPickerConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
