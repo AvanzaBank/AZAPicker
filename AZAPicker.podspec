@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AZAPicker'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A configurable picker for iOS apps written in Swift'
 
   s.description      = <<-DESC
