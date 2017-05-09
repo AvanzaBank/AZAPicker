@@ -22,14 +22,36 @@ pod "AZAPicker"
 
 ## Usage
 
+Start with defining your own picker item type by implementing the 'AZAPickerItem' protocol. This can be done with a simple struct:
+
+````swift
+struct MyPickerItem: AZAPickerItem {
+    public let number: Int
+
+    var description: String {
+        return "\(number)"
+    }
+}
+```
+
 The `AZAPicker` view is instantiated with an instance of `AZAPickerConfiguration` and a `CGRect` for frame:
 
 ```swift
-let config = AZAPickerConfiguration(items: ...)
-let pickerView = AZAPicker(with: config, frame: .zero)
+let config = AZAPickerConfiguration<MyPickerItem>(items: ...)
+let pickerView = AZAPicker<MyPickerItem>(with: config, frame: .zero)
 ```
 
-The `AZAPickerDelegate` protocol can be implemented to receive updates about which item is currently selected.
+The `onPickItem` variable of the picker can be set to a function to receive updates about which item is currently selected. This function has to fulfill the type definition: 
+
+```swift
+public typealias AZAPickerItemPicked = (AZAPicker<T>, T) -> ()
+```
+
+Which for this example becomes:
+
+```swift
+(AZAPicker<MyPickerItem>, MyPickerItem) -> ()
+```
 
 ### Configuration
 
