@@ -22,7 +22,7 @@ pod "AZAPicker"
 
 ## Usage
 
-Start with defining your own picker item type by implementing the 'AZAPickerItem' protocol. This can be done with a simple struct:
+Start with defining your own picker item type by implementing the `AZAPickerItem` protocol. This can be done with a simple struct:
 
 ```swift
 struct MyPickerItem: AZAPickerItem {
@@ -59,9 +59,9 @@ Which for this example becomes:
 
 All configuration properties have default values.
 
-#### `items: [AZAPickerItem]` (no default value)
+#### `items: [T: AZAPickerItem]` (no default value)
 
-The list of items to display in the picker. The items must conform to the protocol `AZAPickerItem`, which extends `CustomStringConvertible`.
+The list of items to display in the picker. The items are of our own defined type, which conforms to the protocol `AZAPickerItem`, thus extending `CustomStringConvertible`.
 
 #### `defaultSelectedIndex: Int` (default value: `0`)
 
