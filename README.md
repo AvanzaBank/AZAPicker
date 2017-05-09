@@ -24,7 +24,7 @@ pod "AZAPicker"
 
 Start with defining your own picker item type by implementing the 'AZAPickerItem' protocol. This can be done with a simple struct:
 
-````swift
+```swift
 struct MyPickerItem: AZAPickerItem {
     public let number: Int
 
