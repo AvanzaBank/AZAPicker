@@ -8,7 +8,7 @@ AZAPicker is a configurable and simple horizontal picker for iOS apps written en
                        DESC
 
   s.homepage         = 'https://github.com/avanzabank/AZAPicker'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'Apache License, Version 2.0', :file => 'LICENSE' }
   s.author           = { 'Viktor Rutberg' => 'viktor.rutberg@avanza.se', 'Tommy Malmström' => 'tommy.malmstrom@avanza.se', 'Askia Linder' => 'askia.linder@avanza.se' }
   s.source           = { :git => 'https://github.com/avanzabank/AZAPicker.git', :tag => s.version.to_s }
 
