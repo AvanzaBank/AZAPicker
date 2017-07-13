@@ -22,6 +22,7 @@ final class PickerView: UIView, UIScrollViewDelegate {
     private let sliderVelocityCoefficient: Double
     private let defaultSelectedIndex: Int
     private var didSetDefault = false
+    private var silenceIndexUpdates = false
 
     var delegate: PickerViewDelegate?
 
@@ -93,9 +94,14 @@ final class PickerView: UIView, UIScrollViewDelegate {
         scrollView.setContentOffset(point, animated: animated)
     }
 
-    public func set(selectedIndex index: Int, animated: Bool = true) {
+    public func set(selectedIndex index: Int, animated: Bool = true, silently: Bool = false) {
+        if silently {
+            silenceIndexUpdates = true
+        }
+
         scroll(toIndex: index, animated: animated)
-        markItemAsSelected(at: index)
+
+        silenceIndexUpdates = false
     }
 
     private func markItemAsSelected(at index: Int) {
@@ -105,7 +111,9 @@ final class PickerView: UIView, UIScrollViewDelegate {
 
         selectedIndex = index
 
-        delegate?.picker(self, didSelectIndex: selectedIndex)
+        if !silenceIndexUpdates {
+            delegate?.picker(self, didSelectIndex: selectedIndex)
+        }
     }
 
     private func convert(contentOffsetToIndex contentOffset: CGFloat) -> Int {
@@ -133,7 +141,7 @@ final class PickerView: UIView, UIScrollViewDelegate {
         scrollView.contentInset = UIEdgeInsets(top: 0, left: self.xContentInset, bottom: 0, right: self.xContentInset)
 
         if !didSetDefault {
-            set(selectedIndex: defaultSelectedIndex, animated: false)
+            set(selectedIndex: defaultSelectedIndex, animated: false, silently: true)
             didSetDefault = true
         } else {
             set(selectedIndex: selectedIndex, animated: false)
