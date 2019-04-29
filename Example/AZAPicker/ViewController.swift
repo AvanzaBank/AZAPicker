@@ -30,7 +30,9 @@ class ViewController: UIViewController {
         let pickerView = AZAPicker<PickerItem>(with: config, frame: .zero)
 
         pickerView.backgroundColor = .white
-        pickerView.onPickItem = self.picker
+		pickerView.onPickItem = {( sender : AZAPicker<PickerItem>,item:PickerItem) in
+			print("didPickItem: \(item)")
+		}
         pickerView.translatesAutoresizingMaskIntoConstraints = false
         
         view.addSubview(pickerView)
@@ -44,8 +46,11 @@ class ViewController: UIViewController {
         NSLayoutConstraint(item: pickerView, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 80).isActive = true
     }
     
-    func picker(sender: AZAPicker<PickerItem>, item: PickerItem) {
+    /*func picker(sender: AZAPicker<PickerItem>, item: PickerItem) {
         print("didPickItem: \(item)")
-    }
+    }*/
+	deinit {
+		debugPrint("Deallocated")
+	}
 }
 
