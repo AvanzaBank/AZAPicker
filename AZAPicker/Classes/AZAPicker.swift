@@ -30,14 +30,15 @@ public class AZAPicker<T: AZAPickerItem>: UIView, PickerViewDelegate {
         setupSelectionPickerView()
         setupPickerView()
 
-        bringSubview(toFront: pickerView)
+        
+        bringSubviewToFront(pickerView)
 
         switch configuration.gradientPosition {
         case .above:
-            bringSubview(toFront: gradientContainerView)
+            bringSubviewToFront(gradientContainerView)
 
         case .below:
-            sendSubview(toBack: gradientContainerView)
+            bringSubviewToFront(gradientContainerView)
         }
     }
     
@@ -107,7 +108,7 @@ public class AZAPicker<T: AZAPickerItem>: UIView, PickerViewDelegate {
         path.usesEvenOddFillRule = true
 
         layer.path = path.cgPath
-        layer.fillRule = kCAFillRuleEvenOdd
+        layer.fillRule = CAShapeLayerFillRule.evenOdd
         layer.fillColor = backgroundColor?.cgColor
 
         return layer
