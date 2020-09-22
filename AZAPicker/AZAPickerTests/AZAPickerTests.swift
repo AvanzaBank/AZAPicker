@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import AZAPicker
+import AZAPicker
 
 class AZAPickerTests: XCTestCase {
     

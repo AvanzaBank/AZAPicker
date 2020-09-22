@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		F94C945F1FD1656A005A3DF1 /* AZAPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F94C94551FD16569005A3DF1 /* AZAPicker.framework */; };
 		F94C94641FD1656A005A3DF1 /* AZAPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94C94631FD1656A005A3DF1 /* AZAPickerTests.swift */; };
-		F94C94661FD1656A005A3DF1 /* AZAPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = F94C94581FD16569005A3DF1 /* AZAPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F94C94731FD165A8005A3DF1 /* AZAPickerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94C946F1FD165A8005A3DF1 /* AZAPickerConfiguration.swift */; };
 		F94C94741FD165A8005A3DF1 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94C94701FD165A8005A3DF1 /* HelperFunctions.swift */; };
 		F94C94751FD165A8005A3DF1 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94C94711FD165A8005A3DF1 /* PickerView.swift */; };
@@ -28,7 +27,6 @@
 
 /* Begin PBXFileReference section */
 		F94C94551FD16569005A3DF1 /* AZAPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AZAPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F94C94581FD16569005A3DF1 /* AZAPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZAPicker.h; sourceTree = "<group>"; };
 		F94C94591FD16569005A3DF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F94C945E1FD1656A005A3DF1 /* AZAPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AZAPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F94C94631FD1656A005A3DF1 /* AZAPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZAPickerTests.swift; sourceTree = "<group>"; };
@@ -83,7 +81,6 @@
 				F94C946F1FD165A8005A3DF1 /* AZAPickerConfiguration.swift */,
 				F94C94701FD165A8005A3DF1 /* HelperFunctions.swift */,
 				F94C94711FD165A8005A3DF1 /* PickerView.swift */,
-				F94C94581FD16569005A3DF1 /* AZAPicker.h */,
 				F94C94591FD16569005A3DF1 /* Info.plist */,
 			);
 			path = AZAPicker;
@@ -105,7 +102,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F94C94661FD1656A005A3DF1 /* AZAPicker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +161,7 @@
 					};
 					F94C945D1FD1656A005A3DF1 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 1200;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -175,6 +172,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = F94C944B1FD16569005A3DF1;
 			productRefGroup = F94C94561FD16569005A3DF1 /* Products */;
@@ -368,7 +366,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -392,7 +390,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -407,7 +405,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = se.avanza.AZAPickerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -422,7 +420,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = se.avanza.AZAPickerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
