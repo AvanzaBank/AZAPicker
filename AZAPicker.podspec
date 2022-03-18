@@ -13,6 +13,7 @@ AZAPicker is a configurable and simple horizontal picker for iOS apps written en
   s.source           = { :git => 'https://github.com/avanzabank/AZAPicker.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
+  s.swift_version = '5.3'
 
   s.source_files = 'AZAPicker/Classes/**/*'
   s.frameworks = 'UIKit'
