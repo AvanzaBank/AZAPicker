@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98E1BAD227E4D08300C6EC42 /* AZAPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E1BACC27E4D08300C6EC42 /* AZAPicker.swift */; };
+		98E1BAD327E4D08300C6EC42 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E1BACD27E4D08300C6EC42 /* PickerView.swift */; };
+		98E1BAD427E4D08300C6EC42 /* AZAPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 98E1BACE27E4D08300C6EC42 /* AZAPicker.h */; };
+		98E1BAD527E4D08300C6EC42 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E1BACF27E4D08300C6EC42 /* HelperFunctions.swift */; };
+		98E1BAD627E4D08300C6EC42 /* AZAPickerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E1BAD027E4D08300C6EC42 /* AZAPickerConfiguration.swift */; };
+		98E1BAD727E4D08300C6EC42 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98E1BAD127E4D08300C6EC42 /* Info.plist */; };
+		98E1BADC27E4D09F00C6EC42 /* AZAPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E1BADA27E4D09F00C6EC42 /* AZAPickerTests.swift */; };
+		98E1BADD27E4D09F00C6EC42 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98E1BADB27E4D09F00C6EC42 /* Info.plist */; };
 		F94C945F1FD1656A005A3DF1 /* AZAPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F94C94551FD16569005A3DF1 /* AZAPicker.framework */; };
-		F94C94641FD1656A005A3DF1 /* AZAPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94C94631FD1656A005A3DF1 /* AZAPickerTests.swift */; };
-		F94C94661FD1656A005A3DF1 /* AZAPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = F94C94581FD16569005A3DF1 /* AZAPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F94C94731FD165A8005A3DF1 /* AZAPickerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94C946F1FD165A8005A3DF1 /* AZAPickerConfiguration.swift */; };
-		F94C94741FD165A8005A3DF1 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94C94701FD165A8005A3DF1 /* HelperFunctions.swift */; };
-		F94C94751FD165A8005A3DF1 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94C94711FD165A8005A3DF1 /* PickerView.swift */; };
-		F94C94761FD165A8005A3DF1 /* AZAPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94C94721FD165A8005A3DF1 /* AZAPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,16 +29,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		98E1BACC27E4D08300C6EC42 /* AZAPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZAPicker.swift; sourceTree = "<group>"; };
+		98E1BACD27E4D08300C6EC42 /* PickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		98E1BACE27E4D08300C6EC42 /* AZAPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZAPicker.h; sourceTree = "<group>"; };
+		98E1BACF27E4D08300C6EC42 /* HelperFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		98E1BAD027E4D08300C6EC42 /* AZAPickerConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZAPickerConfiguration.swift; sourceTree = "<group>"; };
+		98E1BAD127E4D08300C6EC42 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98E1BADA27E4D09F00C6EC42 /* AZAPickerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZAPickerTests.swift; sourceTree = "<group>"; };
+		98E1BADB27E4D09F00C6EC42 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F94C94551FD16569005A3DF1 /* AZAPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AZAPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F94C94581FD16569005A3DF1 /* AZAPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZAPicker.h; sourceTree = "<group>"; };
-		F94C94591FD16569005A3DF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F94C945E1FD1656A005A3DF1 /* AZAPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AZAPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F94C94631FD1656A005A3DF1 /* AZAPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZAPickerTests.swift; sourceTree = "<group>"; };
-		F94C94651FD1656A005A3DF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F94C946F1FD165A8005A3DF1 /* AZAPickerConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AZAPickerConfiguration.swift; path = Classes/AZAPickerConfiguration.swift; sourceTree = SOURCE_ROOT; };
-		F94C94701FD165A8005A3DF1 /* HelperFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HelperFunctions.swift; path = Classes/HelperFunctions.swift; sourceTree = SOURCE_ROOT; };
-		F94C94711FD165A8005A3DF1 /* PickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PickerView.swift; path = Classes/PickerView.swift; sourceTree = SOURCE_ROOT; };
-		F94C94721FD165A8005A3DF1 /* AZAPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AZAPicker.swift; path = Classes/AZAPicker.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		98E1BACA27E4D08300C6EC42 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				98E1BACB27E4D08300C6EC42 /* AZAPicker */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		98E1BACB27E4D08300C6EC42 /* AZAPicker */ = {
+			isa = PBXGroup;
+			children = (
+				98E1BACC27E4D08300C6EC42 /* AZAPicker.swift */,
+				98E1BACD27E4D08300C6EC42 /* PickerView.swift */,
+				98E1BACE27E4D08300C6EC42 /* AZAPicker.h */,
+				98E1BACF27E4D08300C6EC42 /* HelperFunctions.swift */,
+				98E1BAD027E4D08300C6EC42 /* AZAPickerConfiguration.swift */,
+				98E1BAD127E4D08300C6EC42 /* Info.plist */,
+			);
+			path = AZAPicker;
+			sourceTree = "<group>";
+		};
+		98E1BAD827E4D09F00C6EC42 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				98E1BAD927E4D09F00C6EC42 /* AZAPickerTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		98E1BAD927E4D09F00C6EC42 /* AZAPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				98E1BADA27E4D09F00C6EC42 /* AZAPickerTests.swift */,
+				98E1BADB27E4D09F00C6EC42 /* Info.plist */,
+			);
+			path = AZAPickerTests;
+			sourceTree = "<group>";
+		};
 		F94C944B1FD16569005A3DF1 = {
 			isa = PBXGroup;
 			children = (
-				F94C94571FD16569005A3DF1 /* AZAPicker */,
-				F94C94621FD1656A005A3DF1 /* AZAPickerTests */,
+				98E1BACA27E4D08300C6EC42 /* Sources */,
+				98E1BAD827E4D09F00C6EC42 /* Tests */,
 				F94C94561FD16569005A3DF1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,28 +116,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F94C94571FD16569005A3DF1 /* AZAPicker */ = {
-			isa = PBXGroup;
-			children = (
-				F94C94721FD165A8005A3DF1 /* AZAPicker.swift */,
-				F94C946F1FD165A8005A3DF1 /* AZAPickerConfiguration.swift */,
-				F94C94701FD165A8005A3DF1 /* HelperFunctions.swift */,
-				F94C94711FD165A8005A3DF1 /* PickerView.swift */,
-				F94C94581FD16569005A3DF1 /* AZAPicker.h */,
-				F94C94591FD16569005A3DF1 /* Info.plist */,
-			);
-			path = AZAPicker;
-			sourceTree = "<group>";
-		};
-		F94C94621FD1656A005A3DF1 /* AZAPickerTests */ = {
-			isa = PBXGroup;
-			children = (
-				F94C94631FD1656A005A3DF1 /* AZAPickerTests.swift */,
-				F94C94651FD1656A005A3DF1 /* Info.plist */,
-			);
-			path = AZAPickerTests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -105,7 +123,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F94C94661FD1656A005A3DF1 /* AZAPicker.h in Headers */,
+				98E1BAD427E4D08300C6EC42 /* AZAPicker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98E1BAD727E4D08300C6EC42 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98E1BADD27E4D09F00C6EC42 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,10 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F94C94761FD165A8005A3DF1 /* AZAPicker.swift in Sources */,
-				F94C94731FD165A8005A3DF1 /* AZAPickerConfiguration.swift in Sources */,
-				F94C94741FD165A8005A3DF1 /* HelperFunctions.swift in Sources */,
-				F94C94751FD165A8005A3DF1 /* PickerView.swift in Sources */,
+				98E1BAD527E4D08300C6EC42 /* HelperFunctions.swift in Sources */,
+				98E1BAD627E4D08300C6EC42 /* AZAPickerConfiguration.swift in Sources */,
+				98E1BAD327E4D08300C6EC42 /* PickerView.swift in Sources */,
+				98E1BAD227E4D08300C6EC42 /* AZAPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F94C94641FD1656A005A3DF1 /* AZAPickerTests.swift in Sources */,
+				98E1BADC27E4D09F00C6EC42 /* AZAPickerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
